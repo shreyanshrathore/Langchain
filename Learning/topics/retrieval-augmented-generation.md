@@ -1,1 +1,3 @@
 # Retrieval augmented generation
+
+Retrieval Augmented Generation (RAG) combines the generative power of LLMs with external knowledge retrieval to provide accurate, up-to-date information. The process involves embedding user queries, searching a vector database for relevant documents, and including those documents in the LLM's context when generating responses. RAG reduces hallucinations by grounding responses in retrieved facts and allows access to private or recent information not in the model's training data. This makes RAG essential for building reliable AI applications that need current knowledge or domain-specific information.
